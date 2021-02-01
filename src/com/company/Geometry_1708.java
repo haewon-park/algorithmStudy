@@ -3,15 +3,15 @@ package com.company;
 import java.io.*;
 import java.util.*;
 
-class Point {
-    long x;
-    long y;
-
-    Point(long x, long y) {
-        this.x = x;
-        this.y = y;
-    }
-}
+//class Point {
+//    long x;
+//    long y;
+//
+//    Point(long x, long y) {
+//        this.x = x;
+//        this.y = y;
+//    }
+//}
 
 public class Geometry_1708 {
     public static void main(String[] args) throws IOException {
