@@ -28,7 +28,7 @@ public class boj_1302 {
         }
 
         ArrayList<String> list = new ArrayList<>();
-        for(String key : books.keySet()){
+        for(String key : books.keySet()){ //keySet() --> key 값이 필요한 경우, Map 값을 전체 출력
             if(books.get(key) == max){
                 list.add(key);
             }
