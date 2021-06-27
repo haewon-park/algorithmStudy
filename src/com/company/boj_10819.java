@@ -1,5 +1,7 @@
 package com.company;
 
+//참고: https://hyukjun.tistory.com/223
+
 import java.io.*;
 import java.util.StringTokenizer;
 
