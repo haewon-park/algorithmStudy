@@ -36,6 +36,10 @@ public class boj_6588 {
                         break;
                     }
                 }
+
+                if(i == n){
+                    bw.write("Goldbach's conjecture is wrong.");
+                }
             }
         }
 
