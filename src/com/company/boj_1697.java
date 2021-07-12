@@ -40,7 +40,6 @@ public class boj_1697 {
 
                 if (i == 0){
                     next = current - 1;
-
                 } else if (i == 1){
                     next = current + 1;
                 } else {
