@@ -1,34 +1,25 @@
 package com.company;
 
-import java.io.*;
-import java.util.StringTokenizer;
-
 public class taegyu {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+    public static void main(String[] args) {
+        double result1 = 10 * 10 * Ccalculator.pi;
+        int result2 = Ccalculator.plus(10, 1);
+        int result3 = Ccalculator.minus(10, 1);
+        System.out.println(result1);
+        System.out.println(result2);
+        System.out.println(result3);
+    }
 
-        int a = Integer.parseInt(st.nextToken());
-        int b = Integer.parseInt(st.nextToken());
-        int c = Integer.parseInt(st.nextToken());
+    public static class Ccalculator{
+        static double pi = 3.14159;
 
-        int total = 0;
-
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
-        for (int i = 0; i < a; i++) {
-            for (int j = 0; j < b; j++) {
-                for (int k = 0; k < c; k++) {
-                    String str = i + " " + j + " " + k;
-                    bw.write(str + "\n");
-                    total++;
-                }
-            }
+        static int plus(int x, int y){
+            return x + y;
         }
 
-        bw.write(total + "\n");
-        bw.close();
-        br.close();
+        static int minus(int x, int y){
+            return x - y;
+        }
     }
 
 }

@@ -13,6 +13,7 @@ public class boj_1261 {
     static class point{
         int r, c, broke;
 
+
         public point(int r, int c, int broke) {
             this.r = r;
             this.c = c;
